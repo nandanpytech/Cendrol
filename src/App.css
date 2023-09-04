@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background: rgb(31,95,194);
+  background: linear-gradient(90deg, rgba(31,95,194,1) 0%, rgba(66,103,158,1) 36%, rgba(76,76,78,1) 100%);
+}

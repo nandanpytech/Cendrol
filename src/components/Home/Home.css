@@ -1,0 +1,41 @@
+.container .header{
+    text-align: center;
+    margin: 1rem;
+    color: rgb(30, 200, 30);
+    animation: bounceAnimation 1s infinite;
+  }
+  
+
+.cards-container{
+    max-width: fit-content;
+    margin: 1rem auto; 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+
+
+/* Letter Bounce */
+@keyframes bounceAnimation {
+    0%, 20%, 100% {
+      transform: translateY(-10px);
+    }
+    40% {
+      transform: translateY(0px); 
+    }
+  }
+
+
+@media screen and (max-width:1024px) {
+    .cards-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cards-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+

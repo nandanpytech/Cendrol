@@ -1,0 +1,44 @@
+.white-card{
+    background-color: #fff;
+    color: black;
+    text-transform: capitalize;
+    height: 10rem;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 5px ;
+    cursor: pointer;
+    transform: scale(1);
+    border: none;
+    transition: all .1s linear;
+}
+
+.white-card:hover{
+    transform: scale(.98);
+    border: 1px solid black;
+}
+.categoryName{
+    font-size: 1.5rem;
+    color: rgb(30 58 138);
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.white-card p{
+    text-align: center;
+    display: block;
+}
+
+@media screen and (max-width:768px) {
+    .categoryName{
+        font-size: .9rem;
+        padding: 0;
+    }
+    .white-card{
+        height: max-content;
+        width:auto;
+        padding: .3rem;
+    }
+    .white-card p{
+        display: none;
+    }
+}
