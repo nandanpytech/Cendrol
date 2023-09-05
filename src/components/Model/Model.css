@@ -1,0 +1,84 @@
+.category-name{
+    color: #fff;
+    flex: 1;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.modal-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.modal-close{
+    color: #fff;
+    margin-left: auto;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.modal-body{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-jokes{
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.next-joke{
+    background-color: rgba(18, 67, 241, 0.867);
+    border-radius: 5px;
+    outline: none;
+    border: transparent;
+    margin: 1rem;
+    font-size: larger;
+    font-weight: 700;
+    padding: .5rem 4rem;
+    cursor: pointer;
+}
+
+.next-joke:hover{
+    background-color: rgb(37 99 235);
+}
+
+
+.spinner-4 {
+    width: 100px;
+    --b: 8px; /* the border thickness */
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%,#fff) content-box;
+    -webkit-mask:
+      repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),
+      radial-gradient(farthest-side,#0000 calc(100% - var(--b) - 1px),#000 calc(100% - var(--b)));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation:s4 1s infinite steps(10);
+  }
+  @keyframes s4 {to{transform: rotate(1turn)}}
+  
+@media screen and (max-width:768px) {
+    .modal-header{
+        margin-bottom: 1rem;
+    }
+
+    .category-name{
+        font-size: 1.7rem;
+    }
+    .modal-jokes{
+        font-size: 1.2rem;
+    }
+    .modal-close{
+        font-size: 1.5rem;
+    }
+    .next-joke{
+        padding: .5rem 2rem;
+    }
+   
+}
