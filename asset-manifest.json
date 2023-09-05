@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cendrol/static/css/main.a08674ec.css",
+    "main.js": "/Cendrol/static/js/main.e381962a.js",
+    "static/js/787.a5a00b74.chunk.js": "/Cendrol/static/js/787.a5a00b74.chunk.js",
+    "index.html": "/Cendrol/index.html",
+    "main.a08674ec.css.map": "/Cendrol/static/css/main.a08674ec.css.map",
+    "main.e381962a.js.map": "/Cendrol/static/js/main.e381962a.js.map",
+    "787.a5a00b74.chunk.js.map": "/Cendrol/static/js/787.a5a00b74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a08674ec.css",
+    "static/js/main.e381962a.js"
+  ]
+}
